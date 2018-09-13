@@ -14,5 +14,5 @@ ln -s $ROOT/zshrc ~/.zshrc
 
 ## install vim plugins
 
-vim +PlugInstall
+vim +PlugInstall +qall
 

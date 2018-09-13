@@ -8,6 +8,7 @@ inoremap jj <Esc>
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
+Plug 'xuyuanp/nerdtree-git-plugin'
 " Plug 'tomlion/vim-solidity'
 " Plug 'pangloss/vim-javascript'
 Plug 'jiangmiao/auto-pairs'
