@@ -9,8 +9,16 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ## install the dotfiles
 
-ln -s $ROOT/vimrc ~/.vimrc
-ln -s $ROOT/zshrc ~/.zshrc
+append_old() {
+    mv $1 $1.old
+}
+
+for f in "vimrc zshrc"
+do
+    local dotname=".$f"
+    append_old "~/$dotname"
+    ln -s $ROOT/$f ~/$dotname
+done
 
 ## install vim plugins
 
