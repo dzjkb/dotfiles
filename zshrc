@@ -66,6 +66,7 @@ ZSH_THEME="gianu"
 plugins=(
   git
   ssh-agent
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
