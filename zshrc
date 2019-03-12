@@ -107,6 +107,7 @@ unset HISTFILE
 
 export PATH=/home/me/dev/skylands/apache-maven-3.5.3/bin:$PATH
 export PATH=/home/me/.cabal/bin:$PATH
+export PATH=/home/me/.local/bin:$PATH
 
 function sproj() {
 	if ls *.sublime-project 1>/dev/null 2>&1; then
