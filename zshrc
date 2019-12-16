@@ -139,7 +139,8 @@ function recsound() {
     fi
 }
 
-alias mc="java -jar /home/me/dev/skylands/Minecraft.jar"
+# alias mc="java -jar /home/me/dev/skylands/Minecraft.jar"
+alias mc="/home/me/dev/skylands/minecraft-launcher/minecraft-launcher"
 alias ranger='ranger --choosedir=$HOME/.rangerdir; cd $(cat $HOME/.rangerdir)'
 eval $(thefuck --alias)
 
